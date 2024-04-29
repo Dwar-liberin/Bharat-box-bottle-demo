@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const gltf_ecdebd50_ed3ded3d8 = await loadGLTF("assets/ganesh .gltf");
     gltf_ecdebd50_ed3ded3d8.scene.scale.set(0.02, 0.02, 0.02);
-    gltf_ecdebd50_ed3ded3d8.scene.position.set(1.3, -0.4, 0.2);
+    gltf_ecdebd50_ed3ded3d8.scene.position.set(1.6, -0.4, 0.2);
     gltf_ecdebd50_ed3ded3d8.scene.rotation.set(0.07, -3.12, 0);
 
     const logo_42ac4b51_246a42ac4_iconGeometry = new THREE.CircleGeometry(
@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", () => {
       logo_42ac4b51_246a42ac4_image
     );
     logo_42ac4b51_246a42ac4.scale.set(0.3, 0.3, 0.2);
-    logo_42ac4b51_246a42ac4.position.set(0.8, -1, 0);
+    logo_42ac4b51_246a42ac4.position.set(0.8, -1.5, 0);
     logo_42ac4b51_246a42ac4.rotation.set(-0.001, 0, 0);
     logo_42ac4b51_246a42ac4.userData.clickable = true;
     const logo_800a760f_f6b8800a7_iconGeometry = new THREE.CircleGeometry(
@@ -91,7 +91,7 @@ document.addEventListener("DOMContentLoaded", () => {
       logo_800a760f_f6b8800a7_image
     );
     logo_800a760f_f6b8800a7.scale.set(0.3, 0.3, 0.2);
-    logo_800a760f_f6b8800a7.position.set(1.3, -1, 0);
+    logo_800a760f_f6b8800a7.position.set(1.3, -1.5, 0);
     logo_800a760f_f6b8800a7.rotation.set(-0.001, 0, 0);
     logo_800a760f_f6b8800a7.userData.clickable = true;
     const logo_cf2288c5_f4b2cf228_iconGeometry = new THREE.CircleGeometry(
@@ -109,7 +109,7 @@ document.addEventListener("DOMContentLoaded", () => {
       logo_cf2288c5_f4b2cf228_image
     );
     logo_cf2288c5_f4b2cf228.scale.set(0.3, 0.3, 0.2);
-    logo_cf2288c5_f4b2cf228.position.set(1.8, -1, 0);
+    logo_cf2288c5_f4b2cf228.position.set(1.8, -1.5, 0);
     logo_cf2288c5_f4b2cf228.rotation.set(-0.001, 0, 0);
     logo_cf2288c5_f4b2cf228.userData.clickable = true;
 
